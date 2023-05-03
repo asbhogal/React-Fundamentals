@@ -8,13 +8,13 @@ A series of simple mini projects exploring the fundamentals of React through sho
 
 <strong>Features</strong>
 <br>
-<br>
  - Parent/child components
  - State management (via useState hook)
  - Passes data, children and functions via props
  - Conditional rendering
 
 <strong>Stacks Used</strong>
+<br>
 <br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="html5 logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg" alt="css3 logo" width="50" height="50" style="max-width:100%;"></a>
