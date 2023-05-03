@@ -1,8 +1,8 @@
 <div align="center">
 
-<h1>React Fundamentals</h1>
+<h1>React-TypeScript Fundamentals</h1>
 
-A series of simple mini projects exploring the fundamentals of React through showing a list of items and displaying/hiding an alert when a button is clicked. This has been written using Typescript and compiled using Vite.
+A series of simple mini projects exploring the fundamentals of React through showing a list of items and displaying/hiding an alert when a button is clicked. This has been written using TypeScript and compiled using Vite.
 
 </div>
 
@@ -22,3 +22,7 @@ A series of simple mini projects exploring the fundamentals of React through sho
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg" alt="Babel logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/vitejs/vite/blob/main/docs/public/logo.svg"><img src="https://github.com/vitejs/vite/blob/main/docs/public/logo.svg" alt="Webpack logo" width="50" height="50" style="max-width:100%;"></a>
+
+<strong>Links</strong>
+<br>
+ - <a target="_blank" href="https://react-fundamentals-green.vercel.app/">React Fundamentals Page</a>
