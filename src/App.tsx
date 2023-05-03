@@ -17,10 +17,8 @@ export default function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      {alertVisibility && (
-        <Alert onClick={() => setAlertVisibility(true)}>Test alert</Alert>
-      )}
-      <Button color="primary" onClick={() => console.log("button clicked")}>
+      {alertVisibility && <Alert onClose={() => setAlertVisibility(false)}>Test alert</Alert>}
+      <Button color="primary" onClick={() => setAlertVisibility(true)}>
         Test
       </Button>
     </div>
