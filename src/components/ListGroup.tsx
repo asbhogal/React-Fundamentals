@@ -1,5 +1,9 @@
+import { useState } from "react";
+
 export default function ListGroup() {
   const items = ["London", "Paris", "New York", "Rome", "Berlin", "Moscow"];
+
+  const [selectedIndex, setSelectedIndex] = useState(-1); // ensures selected item is not the first (which would be 0)
 
   const getMessage = () => {
     return items.length === 0 && <p>No items</p>;
@@ -11,11 +15,15 @@ export default function ListGroup() {
       {getMessage()}
 
       <ul className="list-group">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <li
-            className="list-group-item"
+            className={
+              selectedIndex === index
+                ? "list-group-item active"
+                : "list-group-item"
+            }
             key={item}
-            onClick={(event) => console.log(event)}
+            onClick={() => (setSelectedIndex(index))}
           >
             {item}
           </li>
