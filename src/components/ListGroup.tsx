@@ -1,8 +1,11 @@
 import { useState } from "react";
 
-export default function ListGroup() {
-  const items = ["London", "Paris", "New York", "Rome", "Berlin", "Moscow"];
+interface Props {
+  items: string[]; // ie. 'an array of strings'
+  heading: string;
+}
 
+export default function ListGroup({ items, heading }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(-1); // ensures selected item is not the first (which would be 0)
 
   const getMessage = () => {
@@ -11,7 +14,7 @@ export default function ListGroup() {
 
   return (
     <>
-      <h1>List</h1>
+      <h1>{heading}</h1>
       {getMessage()}
 
       <ul className="list-group">
@@ -23,7 +26,7 @@ export default function ListGroup() {
                 : "list-group-item"
             }
             key={item}
-            onClick={() => (setSelectedIndex(index))}
+            onClick={() => setSelectedIndex(index)}
           >
             {item}
           </li>
