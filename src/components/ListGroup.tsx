@@ -1,6 +1,5 @@
 export default function ListGroup() {
-  let items = ["London", "Paris", "New York", "Rome", "Berlin", "Moscow"];
-  items = [];
+  const items = ["London", "Paris", "New York", "Rome", "Berlin", "Moscow"];
 
   const getMessage = () => {
     return items.length === 0 && <p>No items</p>;
@@ -13,7 +12,11 @@ export default function ListGroup() {
 
       <ul className="list-group">
         {items.map((item) => (
-          <li className="list-group-item" key={item}>
+          <li
+            className="list-group-item"
+            key={item}
+            onClick={(event) => console.log(event)}
+          >
             {item}
           </li>
         ))}
